@@ -1,0 +1,133 @@
+nav
+{    
+        display: block;
+        position: relative;
+        top: 0;
+        width: 100%;
+        background-color:#444;
+        border:5px solid yellow ;
+        border-radius:50px 20px;
+}
+
+#abb{
+font-size:48px;
+color:white;}
+.abc{
+    list-style-type: none;
+    display: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+#a2{
+display: inline;
+}
+#a3{
+display: inline;
+}
+
+aside{	
+float: right;
+width:380px;
+height:600px;
+color:Red;
+border:10px solid white ;
+border-radius:50px 50px;
+}
+.pos{
+display: inline;
+        position: absolute;
+        top: 10px;
+       left:350px;
+}
+.main{
+float:left;
+width: 900px;
+height:600px;
+border:10px solid white ;
+}
+body
+{
+background-color:green;
+}
+p
+{
+margin-right:10px;
+margin-left:10px;
+margin-top:10px;
+margin-bottom:10px;
+display:block;
+}
+header
+{
+color:Red;
+border:5px dashed red;
+border-radius:20px;
+}
+footer{
+color:Red;
+border:5px dashed red;
+border-radius:20px;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+li:hover ul
+{
+    display: block;
+    position: absolute;
+    left: 200px;
+    background-color:green;
+    margin: 0;
+}
+li:hover ul li a:link
+{
+display:block;
+margin-left: -30px;
+}
+a:link
+{
+color:white;
+text-decoration:none;
+}
+a:active
+{
+color:Pink;
+text-decoration:none;
+}
+a:hover
+{
+color:orange;
+text-decoration: none;
+}
+a:visited
+{
+color:cyan;
+text-decoration:underline;
+}
+li ul{ display: none;
+}
+
+input, textarea,button {
+   width : 300px;
+   height:30px;
+   margin: 0;
+   box-sizing: border-box;
+border-radius:15px 15px;
+}
+
+form{
+            margin: 0 auto;
+            width: 750px;
+            height:430px;
+            position:relative;
+            top:10px;
+            padding: 1em;
+            border: 2px solid #CCC;
+            border-radius: 1em;
+}
+label { display: inline-block; width:90px; text-align:right;color:cyan;font-size:18px}
